@@ -1,0 +1,60 @@
+// export const ROLES_DATA = [
+// 	{
+// 		roleId: 5,
+// 		name: 'Cashier',
+// 		permission: {
+// 			CMS: ['C', 'R', 'U', 'T', 'D'],
+// 			Bonus: ['C', 'R', 'U', 'D', 'T', 'Issue'],
+// 			Users: ['R', 'U', 'SR', 'AB', 'T', 'EV', 'UP'],
+// 			Admins: ['C', 'R', 'U', 'T'],
+// 			Reviews: ['C', 'R', 'U'],
+// 			VipTier: ['C', 'R', 'U', 'D'],
+// 			KycLabel: ['C', 'R', 'U'],
+// 			Currencies: ['C', 'R', 'U', 'T'],
+// 			GameReport: ['R'],
+// 			UserReport: ['R'],
+// 			UserComment: ['C', 'R'],
+// 			ImageGallery: ['R', 'U', 'D'],
+// 			Transactions: ['R', 'C'],
+// 			EmailTemplate: ['R', 'U', 'TE', 'D', 'C'],
+// 			DemographReport: ['R'],
+// 			BannerManagement: ['R', 'C', 'U', 'D'],
+// 			CasinoManagement: ['C', 'R', 'U', 'T', 'D'],
+// 			LivePlayerReport: ['R'],
+// 			RestrictedCountry: ['R', 'U', 'D'],
+// 			SiteConfiguration: ['R', 'U'],
+// 			TransactionReport: ['R'],
+// 			ProviderWiseReport: ['R'],
+// 			PaymentProviderReport: ['R'],
+// 			PlayerLiabilityReport: ['R'],
+// 			PlayerManagementReport: ['R'],
+// 			PlayerTransactionReport: ['R'],
+// 		},
+// 		level: 5,
+// 		createdAt: '2024-12-19T06:06:25.325Z',
+// 		updatedAt: '2024-12-19T06:06:25.325Z',
+// 	},
+// ];
+
+// export const PARENT_DATA = [
+// 	{
+// 		adminUserId: 5,
+// 		username: 'demouser4',
+// 		firstName: 'demo',
+// 		lastName: 'user',
+// 		email: 'demo4.user@example.com',
+// 		AdminRole: {
+// 			level: 3,
+// 		},
+// 	},
+// 	{
+// 		adminUserId: 9,
+// 		username: 'demouser7',
+// 		firstName: 'demo',
+// 		lastName: 'user',
+// 		email: 'demo7.user@example.com',
+// 		AdminRole: {
+// 			level: 3,
+// 		},
+// 	},
+// ];

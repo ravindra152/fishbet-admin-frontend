@@ -1,0 +1,5 @@
+/** Notice Keys */
+
+export const CREATE_NOTICE_SUCCESS = 'CREATE_NOTICE_SUCCESS';
+export const CREATE_NOTICE_FAIL = 'CREATE_NOTICE_FAIL';
+export const CREATE_NOTICE = 'CREATE_NOTICE';

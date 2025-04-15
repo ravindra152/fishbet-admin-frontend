@@ -1,0 +1,50 @@
+//
+// _card.scss
+//
+
+.card {
+	margin-bottom: $grid-gutter-width;
+	box-shadow: $box-shadow;
+}
+
+.card-drop {
+	color: var(--#{$prefix}body-color);
+}
+
+.card-title {
+	font-size: 15px;
+	margin: 0 0 7px 0;
+	font-weight: $font-weight-semibold;
+	color: var(--#{$prefix}emphasis-color);
+}
+
+.card-title-desc {
+	color: var(--#{$prefix}secondary-color);
+	margin-bottom: 24px;
+}
+
+.report-card {
+	font-size: 14px;
+	font-weight: $font-weight-semibold;
+	color: var(--#{$prefix}emphasis-color);
+	& .card-body {
+		padding: 1rem;
+	}
+	& .card-title {
+		font-size: 0.8125rem;
+	}
+	& table {
+		margin-bottom: 0px;
+		td {
+			text-transform: capitalize;
+			font-size: 14px;
+			color: var(--#{$prefix}emphasis-color);
+			padding: 5px;
+		}
+	}
+}
+.report-card-title {
+	font-size: 14px;
+	font-weight: $font-weight-semibold;
+	color: var(--#{$prefix}emphasis-color);
+}
