@@ -35,7 +35,7 @@ export default defineConfig({
     host: true,
     strictPort: true,
     port,
-    allowedHosts: ["bo-dev.orionstarsweeps.com"],
+    allowedHosts: ["bo-dev.orionstarsweeps.com","http://65.0.72.144:3001","http://65.0.72.144:3000"],
   },
   preview: {
     port,
