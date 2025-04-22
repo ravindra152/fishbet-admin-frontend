@@ -11,8 +11,8 @@ import { withTranslation } from 'react-i18next';
 // import NotificationDropdown from '../CommonForBoth/TopbarDropdown/NotificationDropdown';
 import ProfileMenu from '../CommonForBoth/TopbarDropdown/ProfileMenu';
 
-import logo from '../../assets/images/company-logo.png';
-import smallLogo from '../../assets/images/favicon.ico'
+import logo from '../../assets/images/logoImage-removebg.png';
+import smallLogo from '../../assets/images/logoImage-removebg.png'
 
 // i18n
 
@@ -71,11 +71,11 @@ const Header = (props) => {
 							</span>
 						</Link>
 
-						{/* <Link to="/" className="logo logo-light">
+						<Link to="/" className="logo logo-light">
 							<span className="logo-sm">
 								<img src={logo} alt="" height="22" />
 							</span>
-						</Link> */}
+						</Link>
 					</div>
 
 					<button 

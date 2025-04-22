@@ -11,8 +11,8 @@ import SidebarContent from './SidebarContent';
 // import logoLightPng from '../../assets/images/logo-light.png';
 // import logoLightSvg from '../../assets/images/logo-light.svg';
 
-import logo from '../../assets/images/company-logo.png';
-import smallLogo from '../../assets/images/favicon.ico';
+import logo from '../../assets/images/logoImage-removebg.png'
+import smallLogo from '../../assets/images/logoImage-removebg.png';
 
 const Sidebar = () => {
   // State to handle sidebar collapse/expand
@@ -31,10 +31,10 @@ const Sidebar = () => {
       <div className="navbar-brand-box">
         <Link to="/" className="logo">
           <span className="logo-sm">
-            <img src={smallLogo} alt="" height="22" />
+            <img src={smallLogo} alt="" height="35" />
           </span>
           <span className="logo-lg">
-            <img src={logo} alt="logo" style={{ filter: 'invert(1)' }} className="sidebar-logo" />
+            <img src={logo} alt="logo" className="sidebar-logos" height={65} width={80} />
           </span>
         </Link>
       </div>
