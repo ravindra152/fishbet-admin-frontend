@@ -82,7 +82,7 @@ const ForgetPasswordPage = (props) => {
                     <Col xs={7}>
                       <div className="text-primary p-4">
                         <h5 className="text-primary">Welcome Back !</h5>
-                        <p>Sign in to continue to TRUEIGTECH.</p>
+                        <p>Sign in to continue to FISHBET.</p>
                       </div>
                     </Col>
                     <Col className="col-5 align-self-end">

@@ -1,8 +1,8 @@
-const projectName = 'TRUEIGTECH';
+const projectName = 'FISHBET';
 
 const role = 'Admin';
 
-const footerText = 'Design and powered by TrueiGTech';
+const footerText = 'Design and powered by FISHBET';
 
 const tableCustomClass = '';
 // const tableCustomClass = 'table-dark'; // for dark table

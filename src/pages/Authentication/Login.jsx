@@ -234,7 +234,7 @@ const Login = (props) => {
 								</p>
 								<p>
 									© {new Date().getFullYear()} {projectName}{' '}
-									<i className="mdi mdi-heart text-danger" /> by TrueiGTech
+									<i className="mdi mdi-heart text-danger" /> by FISHBET
 								</p>
 							</div>
 						</Col>

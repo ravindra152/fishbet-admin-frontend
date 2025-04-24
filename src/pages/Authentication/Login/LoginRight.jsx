@@ -228,7 +228,7 @@ const Login = (props) => {
 									<div className="mt-4 mt-md-5 text-center text-white">
 										<p className="mb-0">
 											© {new Date().getFullYear()} {projectName}{' '}
-											<i className="mdi mdi-heart text-danger" /> by TrueiGTech
+											<i className="mdi mdi-heart text-danger" /> by FISHBET
 										</p>
 									</div>
 								</div>
