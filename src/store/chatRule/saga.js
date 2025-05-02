@@ -70,7 +70,6 @@ function* updateChatRuleWorker(action) {
 	}
 }
 function* deleteChatRuleWorker(action) {
-	console.log('action: ', action);
 	try {
 		const { data, onSuccess } = action && action.payload;
 		yield deleteChatRule(data);

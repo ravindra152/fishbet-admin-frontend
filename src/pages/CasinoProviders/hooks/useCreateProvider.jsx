@@ -68,18 +68,12 @@ const useCreateProvider = () => {
 		);
 	};
 
-	// const { openCasinoCategoryModal } = useCasinoProvidersListing();
-
 	const handleEditProvider = (values) => {
-		// console.log('Form values:', values); // Debugging
-		// console.log('Image field:', values.image); // Check if image is present
 		dispatch(
 			editCasinoProvidersStart({
 				data: {
 					...values,
 					casinoProviderId: isEdit.selectedRow.id,
-					// web: values.image || '',  // Provide a fallback value
-					// mobile: values.image || '',  // Provide a fallback value
 				},
 			})
 		);

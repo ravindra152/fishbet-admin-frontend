@@ -118,10 +118,13 @@ import ChatRule from './chatRule/reducer';
 
 import BonusDrop from './bonusDrop/reducer';
 
+import socialLinksReducer from './socialLinks/reducer';
+
 const rootReducer = combineReducers({
 	AdminRoles,
 	Countries,
 	Players,
+	socialLinksReducer,
 	PermissionDetails,
 	AllBonusDetails,
 	BetSettings,

@@ -67,6 +67,10 @@ const disableUserSession = (data) =>
 const createSuperAdminCMS = (data) =>
 	postRequest(`${VITE_APP_API_URL}/api/v1/cms`, data);
 
+const createSocialLink = (data) =>
+	postRequest(`${VITE_APP_API_URL}/api/v1/social-links`, data);
+
+
 const updateMatchFeaturedTemplate = (data) =>
 	postRequest(`${VITE_APP_API_URL}/api/v1/sportsbook/featured-matches`, data);
 
@@ -144,7 +148,6 @@ const createOffensiveWords = (data) => postRequest(
 	);
 
 const createChatRule = (data) =>{
-	console.log(data,'fata')
 	return postRequest(
 		`${VITE_APP_API_URL}/api/v1/live-chat/create-chat-rule`,
 		data
@@ -175,6 +178,7 @@ export {
 	createOffensiveWords,
 	createChatrain,
 	createSuperAdminCMS,
+	createSocialLink,
 	superAdminLogin,
 	createCurrency,
 	addSuperAdminUser,

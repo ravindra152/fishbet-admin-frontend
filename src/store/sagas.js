@@ -42,6 +42,7 @@ import offensiveWordsSaga from './offensiveWords/saga';
 import ChatRuleSaga from './chatRule/saga';
 import NoticeDetailsSaga from './notice/saga';
 import BonusDropDetailsSaga from './bonusDrop/saga';
+import SocialLinksSaga from './socialLinks/saga';
 
 
 export default function* rootSaga() {
@@ -89,5 +90,6 @@ export default function* rootSaga() {
 		fork(ChatRuleSaga),
 		fork(NoticeDetailsSaga),
 		fork(BonusDropDetailsSaga),
+		fork(SocialLinksSaga),
 	]);
 }

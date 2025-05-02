@@ -8,6 +8,9 @@ const updateSuperAdminUser = (data) =>
 const updateAdmin = (data) =>
 	putRequest(`${VITE_APP_API_URL}/api/v1/admin`, data); // No use
 
+const updateSocialLink = (data) =>
+	putRequest(`${VITE_APP_API_URL}/api/v1/social-links`, data); // No use
+
 const updateProfile = (data) =>
 	putRequest(`${VITE_APP_API_URL}/api/v1/admin/profile`, data);
 
@@ -244,6 +247,7 @@ const toggleStaffStatus = (data)=>
 
 export {
 	updateChatrain,
+	updateSocialLink,
 	updateChatRule,
 	updateOffensiveWords,
 	updateSuperAdminUser,

@@ -29,7 +29,6 @@ const useBannerManagement = () => {
 		}
 		return [];
 	}, [SABanners]);
-	console.log("sa",formattedSABanners)
 
 	const fetchData = () => {
 		dispatch(

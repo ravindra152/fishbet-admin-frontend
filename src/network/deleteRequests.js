@@ -17,6 +17,10 @@ const deleteSubCategory = (data) =>
 const deleteCasinoGames = (data) =>
 	deleteRequest(`${VITE_APP_API_URL}/api/v1/casino/games`, data);
 
+const deleteSocialLink = (data) =>
+	deleteRequest(`${VITE_APP_API_URL}/api/v1/social-links`, data);
+
+
 // const deleteSABanners = ({ bannerType, bannerId }) =>
 // 	deleteRequest(
 // 		`${VITE_APP_API_URL}/api/v1/banner?bannerKey=${bannerType}&bannerId=${bannerId}`
@@ -74,6 +78,7 @@ export {
 	deletePromotion,
 	deletePackage,
 	deleteChannelData,
+	deleteSocialLink,
 	deleteChatRain,
 	deleteOffensiveWords
 };

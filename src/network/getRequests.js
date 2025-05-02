@@ -9,6 +9,8 @@ const getCasinoCategoryListing = (payload) =>
 const getCasinoSubCategoryListing = (payload) =>
 	getRequest(`${VITE_APP_API_URL}/api/v1/casino/sub-category`, payload);
 
+const getAllSocialLinks = (id,payload) =>
+	getRequest(`${VITE_APP_API_URL}/api/v1/social-links/${id}`, payload);
 
 const getLanguages = (payload) =>
 	getRequest(`${VITE_APP_API_URL}/api/v1/language`, payload);
@@ -306,6 +308,7 @@ export {
 	getBonus,
 	getAdminRole,
 	getCountries,
+	getAllSocialLinks,
 	getPermissionDetails,
 	getPlayers,
 	getAllCms,

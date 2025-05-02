@@ -68,7 +68,6 @@ const useVipTierListing = ({ handleEdit, handleView }) => {
 	// };
 	// const handleEditClick = ({ e, id, data }) => {
 	// 	// e.preventDefault();
-	// 	console.log('++++++++++++++++', id, data);
 	// 	navigate(`edit/${1}`, { state: { data } });
 	// 	// dispatch(selectPromotionByPage(data));
 	// };

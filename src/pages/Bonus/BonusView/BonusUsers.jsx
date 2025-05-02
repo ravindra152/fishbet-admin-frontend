@@ -102,13 +102,11 @@ const BonusUsers = ({ bonusDetail }) => {
 				bonusId: bonusDetail?.id,
 			});
 			setUserBonus(data?.data?.userBonus);
-			console.log("data", data)
 			setLoader(false);
 		} catch (error) {
 			setLoader(false);
 		}
 	};
-	console.log(userBonus)
 	useEffect(() => {
 		fetchUserBonus();
 	}, [page]);

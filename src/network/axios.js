@@ -42,10 +42,10 @@ const makeRequest = async (
 		...config,
 	};
 
-	if (getAccessToken()) {
-		headers.Authorization = `Bearer ${getAccessToken()}`;
+	const token = getAccessToken();
+	if (token) {
+		headers.Authorization = `Bearer ${token}`;
 	}
-
 	return axiosInstance({
 		url,
 		method,

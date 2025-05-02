@@ -94,6 +94,7 @@ import BonusDrop from '../pages/Bonus Drop';
 import CreateBonusDrop from '../pages/Bonus Drop/CreateBonusDrop';
 import EditBonusDrop from '../pages/Bonus Drop/EditBonusDrop';
 import EditChat from '../pages/ChatRule/EditChatRule';
+import SocialLinks from '../pages/SocialLinks';
 
 const authProtectedRoutes = [
 	{
@@ -264,6 +265,11 @@ const authProtectedRoutes = [
 	{
 		path: '/banner-management',
 		component: <BannerManagement />,
+		module: modules.ContentManagement,
+	},
+	{
+		path: '/social-links',
+		component: <SocialLinks />,
 		module: modules.ContentManagement,
 	},
 	{

@@ -53,9 +53,7 @@ const useCreateBonusDrop = () => {
 			totalClaimsAllowed: values.totalClaimsAllowed,
 			isActive: values.isActive,
 		};
-	
-		console.log("Submitting Bonus Drop Payload:", payload); // Debugging
-	
+		
 		dispatch(
 			createBonusDrop({
 				bonusDropData: payload,

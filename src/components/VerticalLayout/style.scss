@@ -36,7 +36,7 @@
 
 .nav_title:hover {
 	border-radius: 0.25rem !important;
-	background-color: #846cf9;
+	background-color: #848d96;
 	color: #fff !important;
 	> i {
 		color: #fff !important;
@@ -45,11 +45,13 @@
 
 .sub_nav_active {
 	border-radius: 0.25rem !important;
-	background-color: #846cf9;
+	// background-color: #846cf9;
+	background-color: #9ca3af;
 	color: #fff !important;
 	> span {
 		color: #fff !important;
 	}
+	
 	> i {
 		color: #fff !important;
 	}
@@ -78,7 +80,7 @@
 }
 
 .active_line_nav {
-	border-left: 3px solid #846cf9;
+	border-left: 3px solid #9ca3af;
 	a {
 		color: #556ee6 !important;
 		text-decoration: underline; /* Example additional styling */

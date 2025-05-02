@@ -1,7 +1,6 @@
 import * as Yup from 'yup';
 
 const getInitialValues = (defaultValue = {}) => {
-    console.log("Default Value:", defaultValue); 
 
     return {
         name: defaultValue?.name?.EN || '',

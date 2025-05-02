@@ -872,12 +872,17 @@ body[data-bs-theme='dark'] {
 }
 
 .btn-primary {
-	background-color: #846cf9 !important;
+	background-color: #9ca3af !important;
 }
 
 .active.nav-link {
-	background-color: #846cf9 !important;
+	background-color: #9ca3af !important;
 }
+
+.nav-link:hover {
+	color: #a6b0cf !important;
+}
+
 .chat-container {
 	width: 100%;
 	max-height: 60vh;
@@ -904,4 +909,18 @@ margin-bottom: 1rem;
 	padding: 0.5rem 1rem;
 	border-radius: 10px 0 10px 10px;
 	// transform: translate(100%, 0);
+}
+
+.text-primary{
+	color: #a6b0cf !important;
+}
+
+.active .page-link{
+	background-color: #9ca3af !important;
+	border: #a6b0cf !important;
+}
+
+.page-link:hover{
+	color: white !important;
+	border: #a6b0cf !important;
 }

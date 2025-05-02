@@ -21,7 +21,6 @@ const BonusPreview = () => {
 	const { bonusDetails, isLoading } = useSelector(
 		(state) => state.AllBonusDetails
 	);
-	console.log(bonusDetails)
 	const toggle = (tab) => {
 		if (activeTab !== tab) {
 			setActiveTab(tab);
